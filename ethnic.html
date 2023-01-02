@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blame someone</title>
+
+<link rel="stylesheet" href="kinezet.css">
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+var ethnics=['Romanians','Bulgarians','Serbians','Greeks','Jews','Gypsies','Polaks','Hungarians','Slovakians','Turks','Russians','Croatians','Germans','Dalmatians','Moldovans'];
+
+
+x=Math.floor(Math.random() * ethnics.length);
+
+
+$(document).ready(function(){
+  $("#gomb").click(function(){
+    $(this).hide();
+	$("#tarto").fadeOut(2500);
+	$("#eth").text(ethnics[x]);
+	$("#eth").fadeIn(2000);
+  });
+  
+  $("#eth").click(function(){
+    location.reload();
+  });
+  
+});
+</script>
+
+</head>
+<body>
+<div id="tarto"><div id="gomb">Which ethnicity should i blame?</div></div>
+
+<div id="eth">Romanians</div>
+
+</body>
+</html>

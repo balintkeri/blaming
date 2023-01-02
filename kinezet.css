@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Bokor');
+
+body{
+	background-image: url("https://i.pinimg.com/originals/3a/9f/71/3a9f7155e47041160f94ed8c45fbec57.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#gomb{
+	position: absolute;
+	top: 30%;
+	left:30%;
+	width:40%;
+	text-align: center;
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color: #23c443;
+	border-radius: 10px;
+	 font-family: "Marker Felt", fantasy;
+	 font-size: 40px;
+}
+
+#gomb:hover{
+	background-color: #54ff76;
+}
+
+#tarto{
+	position:absolute;
+	top: 0%;
+	height:100%;
+	left:0%;
+	width:100%;
+	text-align: center;
+	background-image: url("https://static.vecteezy.com/system/resources/previews/001/988/359/non_2x/seamless-hilly-landscape-with-a-peaceful-village-and-text-space-horizontally-repeatable-free-vector.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#eth{
+	display:none;
+	position:absolute; 
+	width:10%;
+	text-align: center;
+	left:45%;
+	top:20%;
+	font-family: 'Bokor';
+	font-size: 70px;
+	color: #57211d;
+}
